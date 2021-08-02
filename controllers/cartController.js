@@ -17,7 +17,7 @@ const getCartByUser = async (req, res, next) => {
 const createCart = async (req, res, next) => {
     const { cart,name,product,quantity } = req.body;
     
-    try {
+//    try {
 //        const existingCart = await Cart.findOne({name : userId, cart:'1'});
 //        if (existingCart) {
 //         //   await Cart.updateMany({name:userId , cart : '1'}, {cart:'0'})
